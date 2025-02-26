@@ -1,0 +1,31 @@
+{
+  "name": "skyblock-profile-viewer",
+  "version": "1.0.0",
+  "description": "A tool to view Hypixel Skyblock profile stats and get tips on progression",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx mix watch",
+    "netlify": "netlify dev"
+  },
+  "prettier": {
+    "plugins": [
+      "prettier-plugin-tailwindcss"
+    ]
+  },
+  "author": "Dalton F",
+  "license": "MIT",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.0.9",
+    "dotenv": "^16.4.7",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.9"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "eslint": "^9.21.0",
+    "globals": "^16.0.0",
+    "laravel-mix": "^6.0.49",
+    "prettier": "^3.5.2",
+    "prettier-plugin-tailwindcss": "^0.6.11"
+  }
+}
