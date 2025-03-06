@@ -17,7 +17,7 @@
     <script src="js/app.js" defer></script>
   </head>
   <body
-    class="min-h-screen bg-[url(/images/minecraft-background.png)] bg-cover bg-center"
+    class="min-h-screen bg-[url(/images/minecraft-background.webp)] bg-cover bg-center"
   >
     <main
       class="mx-auto grid w-full max-w-6xl gap-12 px-8 py-12 text-white backdrop-blur-lg backdrop-brightness-50"
@@ -36,19 +36,42 @@
       </section>
 
       <section class="grid gap-4">
-        <h2
-          class="max-w-fit rounded-e-full border border-white/60 bg-[#7f7f7f]/40 px-6 py-2 text-2xl font-medium"
+        <div
+          class="flex max-w-fit items-center gap-4 rounded-e-full border border-white/60 bg-[#7f7f7f]/40 px-6 py-2 text-2xl font-medium"
         >
-          Overview
-        </h2>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+            width="24"
+            height="24"
+          >
+            <path
+              fill="#ffffff"
+              d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"
+            />
+          </svg>
+          <h2>Overview</h2>
+        </div>
       </section>
 
       <section class="grid gap-4">
-        <h2
-          class="max-w-fit rounded-e-full border border-white/60 bg-[#7f7f7f]/40 px-6 py-2 text-2xl font-medium"
+        <div
+          class="flex max-w-fit items-center gap-4 rounded-e-full border border-white/60 bg-[#7f7f7f]/40 px-6 py-2 text-2xl font-medium"
         >
-          Accessories
-        </h2>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+            width="24"
+            height="24"
+          >
+            <path
+              fill="#ffffff"
+              d="M48.7 125.8l53.2 31.9c7.8 4.7 17.8 2 22.2-5.9L201.6 12.1c3-5.4-.9-12.1-7.1-12.1c-1.6 0-3.2 .5-4.6 1.4L47.9 98.8c-9.6 6.6-9.2 20.9 .8 26.9zM16 171.7l0 123.5c0 8 10.4 11 14.7 4.4l60-92c5-7.6 2.6-17.8-5.2-22.5L40.2 158C29.6 151.6 16 159.3 16 171.7zM310.4 12.1l77.6 139.6c4.4 7.9 14.5 10.6 22.2 5.9l53.2-31.9c10-6 10.4-20.3 .8-26.9L322.1 1.4c-1.4-.9-3-1.4-4.6-1.4c-6.2 0-10.1 6.7-7.1 12.1zM496 171.7c0-12.4-13.6-20.1-24.2-13.7l-45.3 27.2c-7.8 4.7-10.1 14.9-5.2 22.5l60 92c4.3 6.7 14.7 3.6 14.7-4.4l0-123.5zm-49.3 246L286.1 436.6c-8.1 .9-14.1 7.8-14.1 15.9l0 52.8c0 3.7 3 6.8 6.8 6.8c.8 0 1.6-.1 2.4-.4l172.7-64c6.1-2.2 10.1-8 10.1-14.5c0-9.3-8.1-16.5-17.3-15.4zM233.2 512c3.7 0 6.8-3 6.8-6.8l0-52.6c0-8.1-6.1-14.9-14.1-15.9l-160.6-19c-9.2-1.1-17.3 6.1-17.3 15.4c0 6.5 4 12.3 10.1 14.5l172.7 64c.8 .3 1.6 .4 2.4 .4zM41.7 382.9l170.9 20.2c7.8 .9 13.4-7.5 9.5-14.3l-85.7-150c-5.9-10.4-20.7-10.8-27.3-.8L30.2 358.2c-6.5 9.9-.3 23.3 11.5 24.7zm439.6-24.8L402.9 238.1c-6.5-10-21.4-9.6-27.3 .8L290.2 388.5c-3.9 6.8 1.6 15.2 9.5 14.3l170.1-20c11.8-1.4 18-14.7 11.5-24.6zm-216.9 11l78.4-137.2c6.1-10.7-1.6-23.9-13.9-23.9l-145.7 0c-12.3 0-20 13.3-13.9 23.9l78.4 137.2c3.7 6.4 13 6.4 16.7 0zM174.4 176l163.2 0c12.2 0 19.9-13.1 14-23.8l-80-144c-2.8-5.1-8.2-8.2-14-8.2l-3.2 0c-5.8 0-11.2 3.2-14 8.2l-80 144c-5.9 10.7 1.8 23.8 14 23.8z"
+            />
+          </svg>
+
+          <h2>Accessories</h2>
+        </div>
 
         <p class="text-lg font-semibold text-white/60">
           Unique Accessories: <span class="text-white"></span>
@@ -56,11 +79,23 @@
       </section>
 
       <section class="grid gap-4">
-        <h2
-          class="max-w-fit rounded-e-full border border-white/60 bg-[#7f7f7f]/40 px-6 py-2 text-2xl font-medium"
+        <div
+          class="flex max-w-fit items-center gap-4 rounded-e-full border border-white/60 bg-[#7f7f7f]/40 px-6 py-2 text-2xl font-medium"
         >
-          Pets
-        </h2>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+            width="24"
+            height="24"
+          >
+            <path
+              fill="#ffffff"
+              d="M226.5 92.9c14.3 42.9-.3 86.2-32.6 96.8s-70.1-15.6-84.4-58.5s.3-86.2 32.6-96.8s70.1 15.6 84.4 58.5zM100.4 198.6c18.9 32.4 14.3 70.1-10.2 84.1s-59.7-.9-78.5-33.3S-2.7 179.3 21.8 165.3s59.7 .9 78.5 33.3zM69.2 401.2C121.6 259.9 214.7 224 256 224s134.4 35.9 186.8 177.2c3.6 9.7 5.2 20.1 5.2 30.5l0 1.6c0 25.8-20.9 46.7-46.7 46.7c-11.5 0-22.9-1.4-34-4.2l-88-22c-15.3-3.8-31.3-3.8-46.6 0l-88 22c-11.1 2.8-22.5 4.2-34 4.2C84.9 480 64 459.1 64 433.3l0-1.6c0-10.4 1.6-20.8 5.2-30.5zM421.8 282.7c-24.5-14-29.1-51.7-10.2-84.1s54-47.3 78.5-33.3s29.1 51.7 10.2 84.1s-54 47.3-78.5 33.3zM310.1 189.7c-32.3-10.6-46.9-53.9-32.6-96.8s52.1-69.1 84.4-58.5s46.9 53.9 32.6 96.8s-52.1 69.1-84.4 58.5z"
+            />
+          </svg>
+
+          <h2>Pets</h2>
+        </div>
       </section>
 
       <section class="grid gap-4">
